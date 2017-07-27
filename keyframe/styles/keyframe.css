@@ -21,16 +21,32 @@ img.cloud {
 
 }
 
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mario-drive {
+	from {left: 0px;}
+	to {left: 700px;}
+}
 @keyframes mario-drive {
 	from {left: 0px;}
 	to {left: 700px;}
 }
 
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes luigi-drive {
+	from {left: 0px;}
+	to {left: 700px;}
+}
 @keyframes luigi-drive {
 	from {left: 0px;}
 	to {left: 700px;}
 }
 
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes cloud-drive {
+	from {left: 0px;}
+	to {left: 700px;}
+}
 @keyframes cloud-drive {
 	from {left: 0px;}
 	to {left: 700px;}
