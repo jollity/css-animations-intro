@@ -4,8 +4,10 @@
 
 img {
 	
-	
+	-ms-transform: translateX(50px) translateY(100px); /* IE 9 */
+	-webkit-transform: translateX(50px) translateY(100px); /* Chrome, Safari, Opera */
 	transform: translateX(50px) translateY(100px);
+	
 	/*
 	transform: translate(50px, 100px);
 	*/

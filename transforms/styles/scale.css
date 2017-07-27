@@ -5,6 +5,8 @@
 img {
 	
 	
+	-ms-transform: scaleX(3) scaleY(4); /* IE 9 */
+	-webkit-transform: scaleX(3) scaleY(4); /* Chrome, Safari, Opera */
 	transform: scaleX(3) scaleY(4);
 	
 	/*
