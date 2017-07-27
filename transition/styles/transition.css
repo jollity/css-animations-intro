@@ -2,6 +2,7 @@ img.mario {
 	position: absolute;
 	bottom:  0px;
 	left:  50px;
+	-webkit-transition: left 5s ease-in-out 1s; /* Safari 3.1 to 6.0 */
 	transition: left 5s ease-in-out 1s;
 }
 
