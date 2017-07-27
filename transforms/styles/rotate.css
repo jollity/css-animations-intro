@@ -1,0 +1,15 @@
+.container{
+	text-align: center;
+}
+
+img {
+	
+	
+	-ms-transform: rotateX(30deg) rotateY(40deg); /* IE 9 */
+	-webkit-transform: rotateX(30deg) rotateY(40deg); /* Chrome, Safari, Opera */
+	transform: rotateX(30deg) rotateY(40deg);
+	
+	/*
+	transform: rotateX(30deg, 40deg);
+	*/
+}
