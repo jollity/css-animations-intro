@@ -2,7 +2,7 @@ img.mario {
 	position: absolute;
 	bottom:  0px;
 	left:  50px;
-	transition: left 5s;
+	transition: left 5s ease-in-out;
 }
 
 
