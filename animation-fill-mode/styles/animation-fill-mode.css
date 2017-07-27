@@ -27,7 +27,12 @@ img.cloud {
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes mario-drive {
+	/* 
+		To accomodate the jump when from{} has a position that is not 
+		equal to the original position, animation-fill-mode: backwards is used 
+	*/
 	from {left: 200px;}
+
 	to {left: 700px;}
 }
 @keyframes mario-drive {
