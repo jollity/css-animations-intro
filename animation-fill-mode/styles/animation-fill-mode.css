@@ -1,0 +1,56 @@
+img.mario {
+	position:  absolute;
+	bottom:  200px;
+	animation-name: mario-drive;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
+}
+
+img.luigi {
+	position:  absolute;
+	bottom:  0px;
+	animation-name: luigi-drive;
+	animation-duration: 4.5s;
+	animation-fill-mode: forwards;
+
+}
+
+img.cloud {
+	position:  absolute;
+	animation-name: cloud-drive;
+	animation-duration: 4.75s;
+	animation-fill-mode: forwards;
+
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mario-drive {
+	from {left: 0px;}
+	to {left: 700px;}
+}
+@keyframes mario-drive {
+	from {left: 0px;}
+	to {left: 700px;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes luigi-drive {
+	from {left: 0px;}
+	to {left: 700px;}
+}
+@keyframes luigi-drive {
+	from {left: 0px;}
+	to {left: 700px;}
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes cloud-drive {
+	from {left: 0px;}
+	to {left: 700px;}
+}
+@keyframes cloud-drive {
+	from {left: 0px;}
+	to {left: 700px;}
+}
