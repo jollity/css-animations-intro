@@ -1,0 +1,62 @@
+img.mario {
+	position:  absolute;
+	bottom:  200px;
+	animation-name: mario-drive;
+	animation-duration: 5s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+}
+
+img.luigi {
+	position:  absolute;
+	bottom:  0px;
+	animation-name: luigi-drive;
+	animation-duration: 4.5s;
+	animation-fill-mode: forwards;
+	
+}
+
+img.cloud {
+	position:  absolute;
+	animation-name: cloud-drive;
+	animation-duration: 4.75s;
+	animation-fill-mode: forwards;
+	
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mario-drive {
+	/* 
+		To accomodate the jump when from{} has a position that is not 
+		equal to the original position, animation-fill-mode: backwards is used 
+	*/
+	from {left: -200px;}
+
+	to {left: 1300px;}
+}
+@keyframes mario-drive {
+	from {left: -200px;}
+	to {left: 1500px;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes luigi-drive {
+	from {left: 0px;}
+	to {left: 700px;}
+}
+@keyframes luigi-drive {
+	from {left: 0px;}
+	to {left: 700px;}
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes cloud-drive {
+	from {left: 0px;}
+	to {left: 700px;}
+}
+@keyframes cloud-drive {
+	from {left: 0px;}
+	to {left: 700px;}
+}
