@@ -3,7 +3,7 @@ img.mario {
 	bottom:  200px;
 	animation-name: mario-drive;
 	animation-duration: 5s;
-	animation-fill-mode: backwards;
+	animation-fill-mode: both;
 	animation-delay: 2s;
 }
 
